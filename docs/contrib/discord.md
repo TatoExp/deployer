@@ -65,7 +65,7 @@ after('deploy:failed', 'discord:notify:failure');
 
 
 ```php title="Default value"
-return 'https://discordapp.com/api/webhooks/{{discord_channel}}/{{discord_token}}/slack';
+return 'https://discord.com/api/webhooks/{{discord_channel}}/{{discord_token}}/slack';
 ```
 
 
