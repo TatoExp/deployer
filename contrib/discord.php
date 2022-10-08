@@ -51,7 +51,7 @@ use Deployer\Task\Context;
 use Deployer\Utility\Httpie;
 
 set('discord_webhook', function () {
-    return 'https://discordapp.com/api/webhooks/{{discord_channel}}/{{discord_token}}/slack';
+    return 'https://discord.com/api/webhooks/{{discord_channel}}/{{discord_token}}/slack';
 });
 
 // Deploy messages
